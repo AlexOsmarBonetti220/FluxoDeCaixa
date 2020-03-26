@@ -15,7 +15,7 @@ import Historico from "../src/screens/historico";
 
 export default function MyStack(){
     return(
-        <Stack.Navigator initialRouteName="CarregarLogin">
+        <Stack.Navigator initialRouteName="TelaInicial">
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Login" component={Login} />
             <Stack.Screen name="Cadastro" component={Cadastro} />
